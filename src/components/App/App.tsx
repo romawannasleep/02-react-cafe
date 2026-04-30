@@ -5,7 +5,7 @@ import Info from "../CafeInfo/CafeInfo";
 import Options from "../VoteOptions/VoteOptions";
 import Stats from "../VoteStats/VoteStats";
 import css from  './App.module.css';
-import Notification from "../Notification/Notification";
+import Notification from "../Notification/notification";
 
 const initialState: Votes = {
 	good: 0,
