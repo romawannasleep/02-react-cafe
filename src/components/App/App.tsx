@@ -28,6 +28,5 @@ const positiveRate = totalVotes ? Math.round((votes.good / totalVotes) * 100): 0
    <Info />
    <Options onVote={handleVote} onReset={resetVotes} canReset={totalVotes > 0}/>
    {totalVotes > 0 ? <Stats votes={votes} totalVotes={totalVotes} positiveRate={positiveRate}/>: <Notification />}
-  </div>
-  )
+  </div>)
 };
