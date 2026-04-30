@@ -14,6 +14,5 @@ export default function Options({onVote, onReset, canReset}: VoteOptionsProps) {
   {canReset && (
   <button onClick ={onReset} className={`${css.button} ${css.reset}`}>Reset</button>
   )}
-</div>
-)
+</div>)
 };
